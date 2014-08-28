@@ -9,7 +9,8 @@ sessions.  (Initiated by Chris Oakman)
 During this session, Chris introduced the language's features and benefits in a
 high-level presentation.  We also covered its syntax.
 
-- [Why ClojureScript?](http://oakmac.com/why-cljs)
+- [Why ClojureScript? (slides)](http://oakmac.com/why-cljs)
+- [Why ClojureScript? (video of March 2014 presentation)](https://www.youtube.com/watch?v=vyCMo0sMO5I)
 - [ClojureScript Syntax](https://github.com/shaunlebron/ClojureScript-Syntax-in-15-minutes)
 
 ## Bootcamp 2
