@@ -14,10 +14,18 @@
   [id]
   (.getElementById js/document id))
 
-(sablono/defhtml example-app [state]
-  [:div "hi there!"])
+(defn click-the-button []
+  (swap! page-state assoc :msg
+         "you clicked the button!"))
 
-(def page-state (atom {}))
+(sablono/defhtml example-app [state]
+  [:div
+   [:button {:on-click click-the-button} "Click Me"]
+   [:div (:msg state)]])
+
+(def page-state
+  (atom {:msg "This is a message!"
+         }))
 
 (defn on-page-state-change [_ _ old-state new-state]
   (quiescent/render
