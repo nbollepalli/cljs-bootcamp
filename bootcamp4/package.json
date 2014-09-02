@@ -1,0 +1,7 @@
+{
+  "name": "bootcamp4",
+  "private":true,
+  "dependencies": {
+    "express": "4.1.x"
+  }
+}
